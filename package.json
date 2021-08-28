@@ -1,0 +1,25 @@
+{
+  "name": "myexcel",
+  "version": "1.0.0",
+  "description": "Excel Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukuliashou/MyExcel.git"
+  },
+  "author": "Vlad Kuleshov <u.kuliashou@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ukuliashou/MyExcel/issues"
+  },
+  "homepage": "https://github.com/ukuliashou/MyExcel#readme",
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
